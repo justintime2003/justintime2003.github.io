@@ -1,0 +1,21 @@
+.card-container {
+    width: 400px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    margin-left: 30px;
+}
+
+.image-container img{
+    display: block;
+    max-width: 374px;
+    height: auto;
+    width: 100%;
+
+    
+}
+
+.card-title, .card-body {
+    margin-left: 2%;
+    margin-right: 2%;
+}
