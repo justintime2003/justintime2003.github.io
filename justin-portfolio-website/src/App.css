@@ -2,15 +2,21 @@
     display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
-h1, h2, p {
+h1, h2, h4, p {
     margin-left: 2%;
     color: white;
 }
 
 h1 {
     font-family: 'Playfair Display', serif;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -23,7 +29,10 @@ body {
 
 .bio-container {
     display: flex;
-    align-items: center;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .headshot-container {
@@ -39,4 +48,5 @@ body {
 .text-container {
     flex: 1;
     margin-right: 2%;
+    margin-top: 2%;
 }
