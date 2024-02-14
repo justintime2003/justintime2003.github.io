@@ -1,15 +1,16 @@
 import React from 'react';
-import './TopBar.css'; // Import the CSS file for styling
+import { Link } from 'react-router-dom';
+import './TopBar.css';
 
 function TopBar() {
     return (
         <header className="top-bar">
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/resume">Resume</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </nav>
         </header>
