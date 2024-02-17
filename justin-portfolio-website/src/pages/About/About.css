@@ -1,0 +1,26 @@
+.bio-container {
+    display: flex;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.headshot-container {
+    flex: 0 0 auto;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.headshot {
+    width: 150px;
+}
+
+.text-container {
+    flex: 1;
+    margin-right: 2%;
+}
+
+.p-container {
+    flex: 1;
+    margin-left: 13%;
+    margin-right: 13%;
+}
