@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Card from './components/Card/Card'
 import TopBar from './components/TopBar/TopBar'
 import About from './pages/About/About'
-import Contact from './pages/Contact/Contact'
 import Resume from './pages/Resume/Resume'
 import './App.css'
 import justinthe from './justinthe.jpg'
@@ -18,7 +17,6 @@ function App() {
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/" element={
             <>
             <div className="bio-container">
