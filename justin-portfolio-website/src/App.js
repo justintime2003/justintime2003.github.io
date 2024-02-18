@@ -1,9 +1,10 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 import Card from './components/Card/Card'
 import TopBar from './components/TopBar/TopBar'
 import About from './pages/About/About'
 import Resume from './pages/Resume/Resume'
+import Infantsepsis from './pages/Projects/infantsepsis/Infantsepsis'
 import './App.css'
 import justinthe from './justinthe.jpg'
 
@@ -15,6 +16,7 @@ function App() {
       <div className="container">
         <TopBar />
         <Routes>
+          <Route path="/infant-sepsis-monitor" element={<Infantsepsis />}/>
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/" element={
@@ -32,7 +34,7 @@ function App() {
             </div>
             
             <div className="cards-container">
-              <Card title='Test Title' imageUrl='https://thumbs.dreamstime.com/b/world-map-technological-background-best-internet-concept-global-business-elements-image-furnished-bright-lines-66529240.jpg' imageAlt='Test Image' body='Lorem ipsum dolor sit amet, consectetur adipiscing elit' />
+              <Link to="/infant-sepsis-monitor"><Card title='Test Title' imageUrl='https://thumbs.dreamstime.com/b/world-map-technological-background-best-internet-concept-global-business-elements-image-furnished-bright-lines-66529240.jpg' imageAlt='Test Image' body='Lorem ipsum dolor sit amet, consectetur adipiscing elit' /></Link>
               <Card title='Test Title' imageUrl='https://thumbs.dreamstime.com/b/world-map-technological-background-best-internet-concept-global-business-elements-image-furnished-bright-lines-66529240.jpg' imageAlt='Test Image' body='sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' />
               <Card title='Test Title' imageUrl='https://thumbs.dreamstime.com/b/world-map-technological-background-best-internet-concept-global-business-elements-image-furnished-bright-lines-66529240.jpg' imageAlt='Test Image' body='sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' />
               <Card title='Test Title' imageUrl='https://thumbs.dreamstime.com/b/world-map-technological-background-best-internet-concept-global-business-elements-image-furnished-bright-lines-66529240.jpg' imageAlt='Test Image' body='sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' />
