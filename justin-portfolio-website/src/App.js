@@ -5,6 +5,7 @@ import TopBar from './components/TopBar/TopBar'
 import About from './pages/About/About'
 import Resume from './pages/Resume/Resume'
 import Infantsepsis from './pages/Projects/infantsepsis/Infantsepsis'
+import Infantsepsisimage from './pages/Projects/infantsepsis/Thumbnail.jpg'
 import './App.css'
 import justinthe from './justinthe.jpg'
 
@@ -34,7 +35,7 @@ function App() {
             </div>
             
             <div className="cards-container">
-              <Link to="/infant-sepsis-monitor"><Card title='Test Title' imageUrl='https://thumbs.dreamstime.com/b/world-map-technological-background-best-internet-concept-global-business-elements-image-furnished-bright-lines-66529240.jpg' imageAlt='Test Image' body='Lorem ipsum dolor sit amet, consectetur adipiscing elit' /></Link>
+              <Link className="links" to="/infant-sepsis-monitor"><Card title='Infant Sepsis Monitor' imageUrl={Infantsepsisimage} imageAlt='Test Image' body='Revolutionary monitoring for early detection of sepsis in newborns, ensuring prompt treatment and care.' /></Link>
               <Card title='Test Title' imageUrl='https://thumbs.dreamstime.com/b/world-map-technological-background-best-internet-concept-global-business-elements-image-furnished-bright-lines-66529240.jpg' imageAlt='Test Image' body='sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' />
               <Card title='Test Title' imageUrl='https://thumbs.dreamstime.com/b/world-map-technological-background-best-internet-concept-global-business-elements-image-furnished-bright-lines-66529240.jpg' imageAlt='Test Image' body='sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' />
               <Card title='Test Title' imageUrl='https://thumbs.dreamstime.com/b/world-map-technological-background-best-internet-concept-global-business-elements-image-furnished-bright-lines-66529240.jpg' imageAlt='Test Image' body='sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' />

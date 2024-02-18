@@ -50,3 +50,7 @@ body {
     margin-right: 2%;
     margin-top: 2%;
 }
+
+.links {
+    text-decoration: none;
+}
