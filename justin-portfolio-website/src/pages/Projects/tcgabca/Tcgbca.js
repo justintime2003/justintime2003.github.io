@@ -9,7 +9,7 @@ function Tcgbca() {
 
     return (
         <div className="everything">
-            <h1>TCGA Breast Cancer Analysis Pipeline</h1>
+            <h1>TCGA Breast Cancer Analysis</h1>
 
             <p>The TCG Breast Cancer Analysis project embarked on a groundbreaking journey to harness the power of genomic data, aiming to unravel the complexities of breast cancer at the molecular level. At the heart of this endeavor was the goal to identify genetic markers that could lead to better diagnostic strategies, treatments, and a deeper understanding of cancer's underlying mechanisms.</p>
             
